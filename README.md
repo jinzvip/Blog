@@ -10,3 +10,10 @@
 ## 8.提交说明，准备提交暂存区中的更改的已跟踪文件 git commit -m "blog"
 ## 9.更新到远程服务器上 git push
 
+# 使用git删除github中的文件
+
+## 查询目录dir 
+## 删除文件夹（js）git rm -r --cached js
+## 提交,添加操作说明 git commit -m 'remove'
+## 将本次更改更新到GitHub项目上去 git push -u origin master
+
